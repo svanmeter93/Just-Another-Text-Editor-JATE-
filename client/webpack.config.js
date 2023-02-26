@@ -29,6 +29,20 @@ module.exports = () => {
           test: /\.css@/i,
           use: ["style-loader", "css-loader"],
         }
+        {
+          test: /\.(png|svg|jpg|jpeg|gif)$/i,
+          type: 'asset/images',
+        },
+        {
+          test:/\.m?js$/,
+          exclude: /(node_modules|bower_components)
+            use:{
+              loader:'babel-loader',
+              options: {
+                presents: ["@babel/present-env"]
+              }
+            }
+        }
       ],
     },
   };
