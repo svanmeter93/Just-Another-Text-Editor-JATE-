@@ -15,7 +15,7 @@
   \***************************/
 /***/ (() => {
 
-eval("const butInstall = document.getElementById('buttonInstall');\n\n// Logic for installing the PWA\n// TODO: Add an event handler to the `beforeinstallprompt` event\nwindow.addEventListener('beforeinstallprompt', (event) => {});\n\n// TODO: Implement a click event handler on the `butInstall` element\nbutInstall.addEventListener('click', async () => {});\n\n// TODO: Add an handler for the `appinstalled` event\nwindow.addEventListener('appinstalled', (event) => {});\n\n\n//# sourceURL=webpack://JATE/./src/js/install.js?");
+eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nError: Unknown option: .presents. Check out https://babeljs.io/docs/en/babel-core/#options for more information about options.\\n    at validate (C:\\\\Users\\\\SethV\\\\Development\\\\Just-Another-Text-Editor-JATE-\\\\client\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\validation\\\\options.js:86:25)\\n    at loadPrivatePartialConfig (C:\\\\Users\\\\SethV\\\\Development\\\\Just-Another-Text-Editor-JATE-\\\\client\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\partial.js:58:50)\\n    at loadPrivatePartialConfig.next (<anonymous>)\\n    at C:\\\\Users\\\\SethV\\\\Development\\\\Just-Another-Text-Editor-JATE-\\\\client\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\partial.js:122:25\\n    at Generator.next (<anonymous>)\\n    at step (C:\\\\Users\\\\SethV\\\\Development\\\\Just-Another-Text-Editor-JATE-\\\\client\\\\node_modules\\\\gensync\\\\index.js:261:32)\\n    at evaluateAsync (C:\\\\Users\\\\SethV\\\\Development\\\\Just-Another-Text-Editor-JATE-\\\\client\\\\node_modules\\\\gensync\\\\index.js:291:5)\\n    at C:\\\\Users\\\\SethV\\\\Development\\\\Just-Another-Text-Editor-JATE-\\\\client\\\\node_modules\\\\gensync\\\\index.js:93:9\\n    at new Promise (<anonymous>)\\n    at async (C:\\\\Users\\\\SethV\\\\Development\\\\Just-Another-Text-Editor-JATE-\\\\client\\\\node_modules\\\\gensync\\\\index.js:92:14)\");\n\n//# sourceURL=webpack://JATE/./src/js/install.js?");
 
 /***/ })
 
@@ -24,7 +24,7 @@ eval("const butInstall = document.getElementById('buttonInstall');\n\n// Logic f
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
+/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
 /******/ 	var __webpack_exports__ = {};
 /******/ 	__webpack_modules__["./src/js/install.js"]();
 /******/ 	
